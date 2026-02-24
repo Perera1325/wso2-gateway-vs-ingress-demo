@@ -38,3 +38,33 @@ Demonstrate:
 
 🚧 Day 1 – Foundation Setup
 
+
+
+\## Snippet Injection Attempt (Blocked)
+
+
+
+The controller rejected the configuration-snippet annotation:
+
+
+
+"Snippet directives are disabled by the Ingress administrator."
+
+
+
+This demonstrates:
+
+
+
+\- Snippet-based extensibility created significant security risks.
+
+\- Modern Ingress controllers disable this feature by default.
+
+\- Enabling it requires cluster-wide administrative override.
+
+\- Annotation-based extensibility led to architectural hardening measures.
+
+
+
+This supports the argument that annotations became technical debt.
+
