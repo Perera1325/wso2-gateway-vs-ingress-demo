@@ -12,5 +12,5 @@ spec:
         type: PathPrefix
         value: /
     backendRefs:
-    - name: demo-service
+    - name: demo-service   # intentionally wrong
       port: 80
