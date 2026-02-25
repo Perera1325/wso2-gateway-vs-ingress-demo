@@ -68,3 +68,19 @@ This demonstrates:
 
 This supports the argument that annotations became technical debt.
 
+
+
+
+
+
+
+\## Day 4 – Structured Validation Comparison
+
+
+
+Demonstrated how Gateway API provides structured status conditions
+
+(ResolvedRefs, BackendNotFound) when backend services are invalid,
+
+compared to Ingress which primarily returns 502 without rich resource-level feedback.
+
