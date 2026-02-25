@@ -84,3 +84,33 @@ Demonstrated how Gateway API provides structured status conditions
 
 compared to Ingress which primarily returns 502 without rich resource-level feedback.
 
+
+
+
+
+---
+
+
+
+\## Architecture Comparison
+
+
+
+\### Gateway API Model
+
+
+
+!\[Gateway API Model](diagrams/gateway-model.png)
+
+
+
+---
+
+
+
+\### Ingress Model
+
+
+
+!\[Ingress Model](diagrams/ingress-model.png)
+
