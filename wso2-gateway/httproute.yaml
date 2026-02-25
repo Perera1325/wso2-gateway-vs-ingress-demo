@@ -12,5 +12,9 @@ spec:
         type: PathPrefix
         value: /
     backendRefs:
-    - name: demo-service   # intentionally wrong
+    - name: demo-service
       port: 80
+      weight: 80
+    - name: demo-service-v2
+      port: 80
+      weight: 20
